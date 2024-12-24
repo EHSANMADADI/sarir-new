@@ -1,0 +1,75 @@
+.hero-banr {
+  background-image: url("../src/IMG/test1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+
+}
+@media (max-width: 1300px) {
+  .hero-banr {
+    background-image: url("../src/IMG/test.jpg");
+  }
+}
+@font-face {
+  font-family: "nastaliq";
+  src: url("./font/IranNastaliq.ttf") format("ttf"),
+    url("./font/IranNastaliq.eot") format("eot"),
+    url("./font/IranNastaliq.otf") format("otf"),
+    url("./font/IranNastaliq.ttf") format("ttf"),
+    url("./font/IranNastaliq.woff") format("woff"),
+    url("./font/IranNastaliq.woff2") format("wpff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family:"Byekan";
+  src: url("./font/Yekan.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-Byekan{
+  font-family: "Byekan";
+}
+
+.font-nastaliqh {
+  font-family: "nastaliq";
+}
+
+.bg-photoASR {
+  background-image: url("../src/IMG/1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.bg-photoOCR {
+  background-image: url("../src/IMG/2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.bg-photoVAD {
+  background-image: url("../src/IMG/5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.bg-photoSE {
+  background-image: url("../src/IMG/4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.bg-photoSEGA {
+  background-image: url("../src/IMG/2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.bg-photoOCR {
+  background-image: url("../src/IMG/3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
